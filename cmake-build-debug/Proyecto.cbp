@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Proyecto"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proyecto">
+				<Option output="C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Proyecto.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MINGW/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto"/>
+					<CompileFile command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proyecto/fast">
+				<Option output="C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Proyecto.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MINGW/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto/fast"/>
+					<CompileFile command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MINGW/bin/mingw32-make.exe -f &quot;C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista.c">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/TestList.c">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/lista.h">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

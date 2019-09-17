@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/TestList.c
+stdio.h
+-
+stdlib.h
+-
+lista.h
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/lista.h
+
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/lista.h
+
