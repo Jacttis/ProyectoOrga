@@ -18,10 +18,9 @@
 **/
 extern void crear_lista(tLista * l){
     *l=(tLista)malloc(sizeof(struct celda)); // guarda memoria para la lista
-    /*if(!*l){
-        printf(LST_ERROR_MEMORIA);
-       // return LST_ERROR_MEMORIA??; //ver manejo de error de memoria
-    }*/
+    if(!*l){
+        exit(LST_ERROR_MEMORIA);
+    }
     (*l)->elemento=NULL;     //se crea un centinela con elemento null y siguiente null(Lista Vacia)
     (*l)->siguiente=NULL;
     printf("Cree\n");
@@ -35,9 +34,9 @@ extern void crear_lista(tLista * l){
 extern void l_insertar(tLista l, tPosicion p, tElemento e) {
     tPosicion nuevoNodo;   // se asigna un nuevo nodo
     nuevoNodo = (tPosicion) malloc(sizeof(struct celda)); // se guarda lugar en memoria para el nodo
-   /* if (!nuevoNodo ) {
-        printf(LST_ERROR_MEMORIA); // Que pasa con error en memoria? Preguntar
-    } */
+    if (!nuevoNodo ) {
+        exit(LST_ERROR_MEMORIA);
+    }
     nuevoNodo->elemento = e;                              // setea el elemento en nuevoNodo
     nuevoNodo->siguiente = p->siguiente;                  //Setea el Nodo siguiente al nuevoNodo como el siguiente del pasado como parametro
     p->siguiente = nuevoNodo;                          //Setea el siguiente del pasado como parametro como el nuevoN1odo
@@ -52,6 +51,9 @@ extern void l_insertar(tLista l, tPosicion p, tElemento e) {
 **/
 extern void l_eliminar(tLista l, tPosicion p, void (*fEliminar)(tElemento)){
     tPosicion posicionAEliminar=p->siguiente;
+    if(posicionAEliminar==NULL){
+        exit(LST_POSICION_INVALIDA);
+    }
     p->siguiente=posicionAEliminar->siguiente;
     fEliminar(posicionAEliminar->elemento);
     free(posicionAEliminar->elemento); //?? preguntar
@@ -81,9 +83,9 @@ Recupera y retorna el elemento en la posici�n P.
 Si P es fin(L), finaliza indicando LST_POSICION_INVALIDA.
 **/
 extern tElemento l_recuperar(tLista l, tPosicion p){
- /*  if(p==NULL){
-       return LST_POSICION_INVALIDA;
-   }*/
+   if(p==NULL){
+       exit(LST_POSICION_INVALIDA);
+   }
  //printf("Esto es %i \n",p->siguiente->elemento);
     return p->siguiente->elemento; //devuelvo la siguiente posicion
 }
@@ -93,9 +95,6 @@ extern tElemento l_recuperar(tLista l, tPosicion p){
  Si L es vac�a, primera(L) = ultima(L) = fin(L).
 **/
 extern tPosicion l_primera(tLista l){
-  /*  if(l->siguiente==NULL){
-        return LST_POSICION_INVALIDA;
-    }*/
   printf("Retorna Sentinela\n");
     return l;  // devuelvo sentinela
 }
@@ -106,9 +105,9 @@ extern tPosicion l_primera(tLista l){
 **/
 
 extern tPosicion l_siguiente(tLista l, tPosicion p){
-   /* if(p->siguiente==NULL ){
-        return LST_NO_EXISTE_SIGUIENTE;
-    }*/
+    if(p->siguiente==NULL ){
+        exit(LST_NO_EXISTE_SIGUIENTE);
+    }
    printf("Retorna Siguiente\n");
     return p->siguiente;
 }
@@ -119,9 +118,9 @@ extern tPosicion l_siguiente(tLista l, tPosicion p){
 **/
 extern tPosicion l_anterior(tLista l, tPosicion p){
     tPosicion posicionActual=l->siguiente; // posicionActual variable que busca el anterior a p,Empezando desde el primer elemento
-   /* if(posicionActual==p){     //si es la primera posicion no tiene anterior
-        return LST_NO_EXISTE_ANTERIOR;
-    }*/
+    if(posicionActual==p){     //si es la primera posicion no tiene anterior
+        exit(LST_NO_EXISTE_ANTERIOR);
+    }
         while(posicionActual->siguiente!=p && posicionActual->siguiente!=NULL){  //mientras no sea el ultimo y no se encuentre la posicion pasada
             posicionActual=posicionActual->siguiente;                            //se le asigna el siguiente a posicionActual
         }
@@ -134,11 +133,6 @@ Si L es vac�a, primera(L) = ultima(L) = fin(L).
 **/
 extern tPosicion l_ultima(tLista l){
     tPosicion posicionActual=l->siguiente; //posicionActual busca el ultimo empezando desde el primer elemento
-
-   /* if(posicionActual==NULL){          // si esta vacia la lista retorna posicion invalida
-        return LST_POSICION_INVALIDA;
-    }*/
-
     while(posicionActual->siguiente->siguiente!=NULL){     //mientras no sea el ultimo a posicionActual se le asigna el siguiente
         posicionActual=posicionActual->siguiente;
     }
@@ -152,11 +146,6 @@ Si L es vac�a, primera(L) = ultima(L) = fin(L).
 **/
 extern tPosicion l_fin(tLista l){
     tPosicion posicionActual=l->siguiente; //posicionActual busca el ultimo empezando desde el primer elemento
-
-   /* if(posicionActual==NULL){           // si esta vacia la lista retorna posicion invalida
-        return LST_POSICION_INVALIDA;
-    }*/
-
     while(posicionActual->siguiente!=NULL){     //mientras no sea el ultimo a posicionActual se le asigna el siguiente
         posicionActual=posicionActual->siguiente;
     }
