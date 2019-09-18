@@ -23,7 +23,7 @@ extern void crear_lista(tLista * l){
     }
     (*l)->elemento=NULL;     //se crea un centinela con elemento null y siguiente null(Lista Vacia)
     (*l)->siguiente=NULL;
-    printf("Cree\n");
+
 }
 
 /**
