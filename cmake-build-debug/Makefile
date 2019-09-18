@@ -149,32 +149,32 @@ TDALista.c.s:
 	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TDALista.c.s
 .PHONY : TDALista.c.s
 
-TestList.obj: TestList.c.obj
+testerList.obj: testerList.c.obj
 
-.PHONY : TestList.obj
+.PHONY : testerList.obj
 
 # target to build an object file
-TestList.c.obj:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TestList.c.obj
-.PHONY : TestList.c.obj
+testerList.c.obj:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/testerList.c.obj
+.PHONY : testerList.c.obj
 
-TestList.i: TestList.c.i
+testerList.i: testerList.c.i
 
-.PHONY : TestList.i
+.PHONY : testerList.i
 
 # target to preprocess a source file
-TestList.c.i:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TestList.c.i
-.PHONY : TestList.c.i
+testerList.c.i:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/testerList.c.i
+.PHONY : testerList.c.i
 
-TestList.s: TestList.c.s
+testerList.s: testerList.c.s
 
-.PHONY : TestList.s
+.PHONY : testerList.s
 
 # target to generate assembly for a file
-TestList.c.s:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TestList.c.s
-.PHONY : TestList.c.s
+testerList.c.s:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/testerList.c.s
+.PHONY : testerList.c.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... TDALista.obj
 	@echo ... TDALista.i
 	@echo ... TDALista.s
-	@echo ... TestList.obj
-	@echo ... TestList.i
-	@echo ... TestList.s
+	@echo ... testerList.obj
+	@echo ... testerList.i
+	@echo ... testerList.s
 .PHONY : help
 
 

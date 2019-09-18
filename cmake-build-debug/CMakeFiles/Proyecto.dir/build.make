@@ -56,18 +56,18 @@ include CMakeFiles/Proyecto.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Proyecto.dir/flags.make
 
-CMakeFiles/Proyecto.dir/TestList.c.obj: CMakeFiles/Proyecto.dir/flags.make
-CMakeFiles/Proyecto.dir/TestList.c.obj: ../TestList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Proyecto.dir/TestList.c.obj"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\TestList.c.obj   -c C:\Users\julia\Desktop\UNS\Orga\Proyecto\TestList.c
+CMakeFiles/Proyecto.dir/testerList.c.obj: CMakeFiles/Proyecto.dir/flags.make
+CMakeFiles/Proyecto.dir/testerList.c.obj: ../testerList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Proyecto.dir/testerList.c.obj"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\testerList.c.obj   -c C:\Users\julia\Desktop\UNS\Orga\Proyecto\testerList.c
 
-CMakeFiles/Proyecto.dir/TestList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto.dir/TestList.c.i"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\julia\Desktop\UNS\Orga\Proyecto\TestList.c > CMakeFiles\Proyecto.dir\TestList.c.i
+CMakeFiles/Proyecto.dir/testerList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto.dir/testerList.c.i"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\julia\Desktop\UNS\Orga\Proyecto\testerList.c > CMakeFiles\Proyecto.dir\testerList.c.i
 
-CMakeFiles/Proyecto.dir/TestList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto.dir/TestList.c.s"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\julia\Desktop\UNS\Orga\Proyecto\TestList.c -o CMakeFiles\Proyecto.dir\TestList.c.s
+CMakeFiles/Proyecto.dir/testerList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto.dir/testerList.c.s"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\julia\Desktop\UNS\Orga\Proyecto\testerList.c -o CMakeFiles\Proyecto.dir\testerList.c.s
 
 CMakeFiles/Proyecto.dir/TDALista.c.obj: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/TDALista.c.obj: ../TDALista.c
@@ -84,13 +84,13 @@ CMakeFiles/Proyecto.dir/TDALista.c.s: cmake_force
 
 # Object files for target Proyecto
 Proyecto_OBJECTS = \
-"CMakeFiles/Proyecto.dir/TestList.c.obj" \
+"CMakeFiles/Proyecto.dir/testerList.c.obj" \
 "CMakeFiles/Proyecto.dir/TDALista.c.obj"
 
 # External object files for target Proyecto
 Proyecto_EXTERNAL_OBJECTS =
 
-Proyecto.exe: CMakeFiles/Proyecto.dir/TestList.c.obj
+Proyecto.exe: CMakeFiles/Proyecto.dir/testerList.c.obj
 Proyecto.exe: CMakeFiles/Proyecto.dir/TDALista.c.obj
 Proyecto.exe: CMakeFiles/Proyecto.dir/build.make
 Proyecto.exe: CMakeFiles/Proyecto.dir/linklibs.rsp

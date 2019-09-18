@@ -3,4 +3,4 @@ project(Proyecto C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Proyecto TestList.c TDALista.c lista.h)
+add_executable(Proyecto testerList.c TDALista.c lista.h)

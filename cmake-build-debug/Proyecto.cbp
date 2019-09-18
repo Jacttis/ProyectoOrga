@@ -79,10 +79,10 @@
 		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista.c">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/TestList.c">
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/lista.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/lista.h">
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/testerList.c">
 			<Option target="Proyecto"/>
 		</Unit>
 		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/CMakeLists.txt">

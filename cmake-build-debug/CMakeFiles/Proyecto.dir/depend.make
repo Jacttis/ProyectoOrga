@@ -4,6 +4,6 @@
 CMakeFiles/Proyecto.dir/TDALista.c.obj: ../TDALista.c
 CMakeFiles/Proyecto.dir/TDALista.c.obj: ../lista.h
 
-CMakeFiles/Proyecto.dir/TestList.c.obj: ../TestList.c
-CMakeFiles/Proyecto.dir/TestList.c.obj: ../lista.h
+CMakeFiles/Proyecto.dir/testerList.c.obj: ../lista.h
+CMakeFiles/Proyecto.dir/testerList.c.obj: ../testerList.c
 
