@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Axel/ListaORGA/ListaSimplementeEnlazada.c
+stdio.h
+-
+stdlib.h
+-
+lista.h
+C:/Users/Axel/ListaORGA/lista.h
+
+C:/Users/Axel/ListaORGA/lista.h
+

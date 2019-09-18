@@ -1,0 +1,3 @@
+C:/Users/Axel/ListaORGA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Axel/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir
+C:/Users/Axel/ListaORGA/cmake-build-debug/CMakeFiles/edit_cache.dir
