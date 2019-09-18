@@ -32,8 +32,10 @@ void insertar(tLista list){
             l_insertar(list,posicion,&e);
             break;
         case 3:
+            printf("caso3");
             posicion=l_fin(list);
             l_insertar(list,posicion,&e);
+            printf("inserto");
             break;
         default:
             printf("opcion no valida");
@@ -49,19 +51,19 @@ void Eliminar(tLista list){
     printf("Si desea eliminar en la ultima posicion ingrese '2'\n");
     printf("Si desea eliminar en el final ingrese '3'\n");
     printf("\n\n");
-    scanf("%i",&pos);
+    scanf("%d",&pos);
     switch(pos){
         case 1:
             posicion=l_primera(list);
-            l_eliminar(list, posicion, (void (*)(tElemento)) Eliminar);
+            l_eliminar(list, posicion, (void (*)(tElemento)) eliminar);
             break;
         case 2:
             posicion=l_ultima(list);
-            l_eliminar(list, posicion, (void (*)(tElemento)) Eliminar);
+            l_eliminar(list, posicion, (void (*)(tElemento)) eliminar);
             break;
         case 3:
             posicion=l_fin(list);
-            l_eliminar(list, posicion, (void (*)(tElemento)) Eliminar);
+            l_eliminar(list, posicion, (void (*)(tElemento)) eliminar);
             break;
         default:
             printf("opcion no valida");

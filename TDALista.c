@@ -146,6 +146,9 @@ Si L es vac�a, primera(L) = ultima(L) = fin(L).
 **/
 extern tPosicion l_fin(tLista l){
     tPosicion posicionActual=l->siguiente; //posicionActual busca el ultimo empezando desde el primer elemento
+    if(l->siguiente==NULL){
+        return l;
+    }
     while(posicionActual->siguiente!=NULL){     //mientras no sea el ultimo a posicionActual se le asigna el siguiente
         posicionActual=posicionActual->siguiente;
     }

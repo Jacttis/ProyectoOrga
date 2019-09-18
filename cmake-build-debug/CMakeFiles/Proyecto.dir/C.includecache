@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/lista.h
-
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/testerList.c
-stdlib.h
--
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista.c
 stdio.h
 -
+stdlib.h
+-
 lista.h
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/lista.h
+
 C:/Users/julia/Desktop/UNS/Orga/Proyecto/lista.h
 
