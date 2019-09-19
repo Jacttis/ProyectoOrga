@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6672592f-6358-4773-9f23-357a07056186" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDALista.c" beforeDir="false" afterPath="$PROJECT_DIR$/TDALista.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
@@ -106,6 +105,7 @@
       <workItem from="1568814934543" duration="4357000" />
       <workItem from="1568836535519" duration="7082000" />
       <workItem from="1568857114013" duration="1984000" />
+      <workItem from="1568859692685" duration="1938000" />
     </task>
     <servers />
   </component>

@@ -1,10 +1,9 @@
 //
-// Created by julia on 9/18/2019.
+// Created by Julian Acttis and Axel Fontana  on 9/18/2019.
 //
 #include <stdlib.h>
 #include <stdio.h>
 #include "lista.h"
-#include "conio.h"
 #define LISTA_NO_CREADA 11
 void eliminar(int *e){
     free(e);
@@ -94,7 +93,7 @@ int main(){
             printf(" Ingrese '1' para agregar a lista\n");
             printf("'2' para eliminar de la lista\n");
             printf("'3' para mostrar elementos\n");
-            printf("'4' para destruir la lista\n");
+            printf("'4' para destruir la lista y Salir\n");
             scanf("%i", &opcion);
             switch (opcion) {
                 case 1:
@@ -108,10 +107,11 @@ int main(){
                     mostrarElementos(lista);
                     break;
                 case 4:
-                    l_destruir(&lista, (void (*)(tElemento)) Eliminar);
-
+                    l_destruir(&lista, (void (*)(tElemento)) eliminar);
+                    exit(11);
                 default:
                     printf("Opcion Invalida\n");
+                    break;
             }
 
         } while (opcion != 4);

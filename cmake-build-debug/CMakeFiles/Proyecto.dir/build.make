@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\JetBrainsTools\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\julia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\JetBrainsTools\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\julia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\ProyectoOrga
+CMAKE_SOURCE_DIR = C:\Users\julia\Desktop\UNS\Orga\Proyecto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\ProyectoOrga\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/Proyecto.dir/flags.make
 
 CMakeFiles/Proyecto.dir/testerList.c.obj: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/testerList.c.obj: ../testerList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ProyectoOrga\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Proyecto.dir/testerList.c.obj"
-	D:\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\testerList.c.obj   -c D:\ProyectoOrga\testerList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Proyecto.dir/testerList.c.obj"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\testerList.c.obj   -c C:\Users\julia\Desktop\UNS\Orga\Proyecto\testerList.c
 
 CMakeFiles/Proyecto.dir/testerList.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto.dir/testerList.c.i"
-	D:\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ProyectoOrga\testerList.c > CMakeFiles\Proyecto.dir\testerList.c.i
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\julia\Desktop\UNS\Orga\Proyecto\testerList.c > CMakeFiles\Proyecto.dir\testerList.c.i
 
 CMakeFiles/Proyecto.dir/testerList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto.dir/testerList.c.s"
-	D:\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ProyectoOrga\testerList.c -o CMakeFiles\Proyecto.dir\testerList.c.s
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\julia\Desktop\UNS\Orga\Proyecto\testerList.c -o CMakeFiles\Proyecto.dir\testerList.c.s
 
 CMakeFiles/Proyecto.dir/TDALista.c.obj: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/TDALista.c.obj: ../TDALista.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ProyectoOrga\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Proyecto.dir/TDALista.c.obj"
-	D:\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\TDALista.c.obj   -c D:\ProyectoOrga\TDALista.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Proyecto.dir/TDALista.c.obj"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\TDALista.c.obj   -c C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDALista.c
 
 CMakeFiles/Proyecto.dir/TDALista.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto.dir/TDALista.c.i"
-	D:\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ProyectoOrga\TDALista.c > CMakeFiles\Proyecto.dir\TDALista.c.i
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDALista.c > CMakeFiles\Proyecto.dir\TDALista.c.i
 
 CMakeFiles/Proyecto.dir/TDALista.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto.dir/TDALista.c.s"
-	D:\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ProyectoOrga\TDALista.c -o CMakeFiles\Proyecto.dir\TDALista.c.s
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDALista.c -o CMakeFiles\Proyecto.dir\TDALista.c.s
 
 # Object files for target Proyecto
 Proyecto_OBJECTS = \
@@ -96,7 +96,7 @@ Proyecto.exe: CMakeFiles/Proyecto.dir/build.make
 Proyecto.exe: CMakeFiles/Proyecto.dir/linklibs.rsp
 Proyecto.exe: CMakeFiles/Proyecto.dir/objects1.rsp
 Proyecto.exe: CMakeFiles/Proyecto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ProyectoOrga\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Proyecto.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Proyecto.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Proyecto.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/Proyecto.dir/clean:
 .PHONY : CMakeFiles/Proyecto.dir/clean
 
 CMakeFiles/Proyecto.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\ProyectoOrga D:\ProyectoOrga D:\ProyectoOrga\cmake-build-debug D:\ProyectoOrga\cmake-build-debug D:\ProyectoOrga\cmake-build-debug\CMakeFiles\Proyecto.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\julia\Desktop\UNS\Orga\Proyecto C:\Users\julia\Desktop\UNS\Orga\Proyecto C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles\Proyecto.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto.dir/depend
 

@@ -1,4 +1,11 @@
-D:\JetBrainsTools\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\ProyectoOrga
+C:\Users\julia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\julia\Desktop\UNS\Orga\Proyecto
+-- The C compiler identification is GNU 4.8.3
+-- Check for working C compiler: D:/MINGW/bin/gcc.exe
+-- Check for working C compiler: D:/MINGW/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/ProyectoOrga/cmake-build-debug
+-- Build files have been written to: C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug
