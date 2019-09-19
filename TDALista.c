@@ -129,12 +129,14 @@ Recupera y retorna la �ltima posici�n de L.
 Si L es vac�a, primera(L) = ultima(L) = fin(L).
 **/
 extern tPosicion l_ultima(tLista l){
-    tPosicion posicionActual=l->siguiente; //posicionActual busca el ultimo empezando desde el primer elemento
-    while(posicionActual->siguiente->siguiente!=NULL){     //mientras no sea el ultimo a posicionActual se le asigna el siguiente
-        posicionActual=posicionActual->siguiente;
+    tPosicion posActual=l;
+    if(l->siguiente==NULL){
+        return l;
     }
-
-    return posicionActual;   // retorna ultimo elemento
+    while(posActual->siguiente->siguiente!=NULL){
+        posActual=posActual->siguiente;
+    }
+    return posActual;
 }
 
 /**

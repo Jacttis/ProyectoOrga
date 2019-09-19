@@ -49,19 +49,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\julia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\JetBrainsTools\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\julia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = D:\JetBrainsTools\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\julia\Desktop\UNS\Orga\Proyecto
+CMAKE_SOURCE_DIR = D:\ProyectoOrga
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug
+CMAKE_BINARY_DIR = D:\ProyectoOrga\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/Proyecto.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug
 CMakeFiles/Proyecto.dir/all:
 	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/depend
 	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Proyecto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ProyectoOrga\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Proyecto"
 .PHONY : CMakeFiles/Proyecto.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/Proyecto.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Proyecto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProyectoOrga\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Proyecto.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProyectoOrga\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Proyecto.dir/rule
 
 # Convenience name for target.

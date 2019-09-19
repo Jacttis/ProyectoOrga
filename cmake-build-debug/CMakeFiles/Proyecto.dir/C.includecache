@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/lista.h
+D:/ProyectoOrga/lista.h
 
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/testerList.c
+D:/ProyectoOrga/testerList.c
 stdlib.h
 -
 stdio.h
 -
 lista.h
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/lista.h
+D:/ProyectoOrga/lista.h
 conio.h
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/conio.h
+D:/ProyectoOrga/conio.h
 

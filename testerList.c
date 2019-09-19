@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include "lista.h"
 #include "conio.h"
+#define LISTA_NO_CREADA 11
 void eliminar(int *e){
     free(e);
 }
@@ -47,7 +48,6 @@ void Eliminar(tLista list){
     tPosicion posicion;
     printf("Si desea eliminar en el comienzo ingrese '1'\n");
     printf("Si desea eliminar en la ultima posicion ingrese '2'\n");
-    printf("Si desea eliminar en el final ingrese '3'\n");
     scanf("%d",&pos);
     switch(pos){
         case 1:
@@ -58,17 +58,25 @@ void Eliminar(tLista list){
             posicion=l_ultima(list);
             l_eliminar(list, posicion, (void (*)(tElemento)) eliminar);
             break;
-        case 3:
-            posicion=l_fin(list);
-            l_eliminar(list, posicion, (void (*)(tElemento)) eliminar);
-            break;
         default:
             printf("opcion no valida");
             break;
     }
     printf("\n\n");
 }
+void mostrarElementos(tLista list){
+    tPosicion posM=l_primera(list);
 
+
+    while(posM!=l_fin(list)){
+
+        int *m=(l_recuperar(list,posM));
+        printf("%d ->",*m);
+        posM=l_siguiente(list,posM);
+    }
+    printf("\n\n");
+
+}
 
 
 
@@ -97,19 +105,20 @@ int main(){
                     break;
                 case 3:
                     printf("Mostrar: \n");
-                    int * e=l_recuperar(lista,l_primera(lista));
-                    printf("%d",*e);
+                    mostrarElementos(lista);
+                    break;
                 case 4:
-                    exit(11);
+                    l_destruir(&lista, (void (*)(tElemento)) Eliminar);
+
                 default:
-                    exit(11);
+                    printf("Opcion Invalida\n");
             }
 
         } while (opcion != 4);
 
     }
     else{
-        exit(11);
+        exit(LISTA_NO_CREADA);
     }
 return 0;
 }
