@@ -73,6 +73,7 @@ void mostrarElementos(tLista list){
         printf("%d ->",*m);
         posM=l_siguiente(list,posM);
     }
+    printf("Fin");
     printf("\n\n");
 
 }
@@ -89,7 +90,7 @@ int main(){
     if(crear=='y') {
         crear_lista(&lista);
         do {
-            printf("///////menu///////\n");
+            printf("///////MENU///////\n");
             printf(" Ingrese '1' para agregar a lista\n");
             printf("'2' para eliminar de la lista\n");
             printf("'3' para mostrar elementos\n");
@@ -108,7 +109,7 @@ int main(){
                     break;
                 case 4:
                     l_destruir(&lista, (void (*)(tElemento)) eliminar);
-                    exit(11);
+                    exit(LISTA_NO_CREADA);
                 default:
                     printf("Opcion Invalida\n");
                     break;

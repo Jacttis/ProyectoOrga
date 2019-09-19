@@ -5,12 +5,6 @@
 #include <stdlib.h>
 #include "lista.h"
 
-#define LST_ELEMENTO_NULO           1
-#define LST_NO_EXISTE_SIGUIENTE     2
-#define LST_NO_EXISTE_ANTERIOR      3
-#define LST_POSICION_INVALIDA       4
-#define LST_ERROR_MEMORIA           5
-
 
 /**
  Inicializa una lista vac�a.
@@ -55,7 +49,7 @@ extern void l_eliminar(tLista l, tPosicion p, void (*fEliminar)(tElemento)){
     }
     p->siguiente=posicionAEliminar->siguiente;
     fEliminar(posicionAEliminar->elemento);
-    free(posicionAEliminar->elemento); //?? preguntar
+    free(posicionAEliminar->elemento);
     free(posicionAEliminar);
 
 }
