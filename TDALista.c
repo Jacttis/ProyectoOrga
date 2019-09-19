@@ -40,7 +40,6 @@ extern void l_insertar(tLista l, tPosicion p, tElemento e) {
     nuevoNodo->elemento = e;                              // setea el elemento en nuevoNodo
     nuevoNodo->siguiente = p->siguiente;                  //Setea el Nodo siguiente al nuevoNodo como el siguiente del pasado como parametro
     p->siguiente = nuevoNodo;                          //Setea el siguiente del pasado como parametro como el nuevoN1odo
-    printf("asigno\n");
 
 }
 
@@ -86,7 +85,6 @@ extern tElemento l_recuperar(tLista l, tPosicion p){
    if(p==NULL){
        exit(LST_POSICION_INVALIDA);
    }
- //printf("Esto es %i \n",p->siguiente->elemento);
     return p->siguiente->elemento; //devuelvo la siguiente posicion
 }
 
@@ -95,7 +93,7 @@ extern tElemento l_recuperar(tLista l, tPosicion p){
  Si L es vac�a, primera(L) = ultima(L) = fin(L).
 **/
 extern tPosicion l_primera(tLista l){
-  printf("Retorna Sentinela\n");
+
     return l;  // devuelvo sentinela
 }
 
@@ -108,7 +106,6 @@ extern tPosicion l_siguiente(tLista l, tPosicion p){
     if(p->siguiente==NULL ){
         exit(LST_NO_EXISTE_SIGUIENTE);
     }
-   printf("Retorna Siguiente\n");
     return p->siguiente;
 }
 

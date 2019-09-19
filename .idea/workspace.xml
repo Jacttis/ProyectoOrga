@@ -12,7 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6672592f-6358-4773-9f23-357a07056186" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TDALista.c" beforeDir="false" afterPath="$PROJECT_DIR$/TDALista.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestList.c" beforeDir="false" afterPath="$PROJECT_DIR$/TestList.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testerList.c" beforeDir="false" afterPath="$PROJECT_DIR$/testerList.c" afterDir="false" />
     </list>
@@ -82,6 +84,7 @@
       <workItem from="1568773786614" duration="573000" />
       <workItem from="1568777759520" duration="738000" />
       <workItem from="1568814934543" duration="4357000" />
+      <workItem from="1568836535519" duration="7082000" />
     </task>
     <servers />
   </component>
