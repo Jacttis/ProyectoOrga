@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/TDALista.c.obj"
-  "C:/Users/julia/Desktop/UNS/Orga/Proyecto/arbol.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/arbol.c.obj"
-  "C:/Users/julia/Desktop/UNS/Orga/Proyecto/mainArbol.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/mainArbol.c.obj"
+  "C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/Partida/ia.c.obj"
+  "C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/Partida/partida.c.obj"
+  "C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDAArbol/arbol.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.obj"
+  "C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista/TDALista.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/TDALista/TDALista.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

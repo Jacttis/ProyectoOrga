@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Proyecto.dir/TDALista.c.obj"
-  "CMakeFiles/Proyecto.dir/arbol.c.obj"
-  "CMakeFiles/Proyecto.dir/mainArbol.c.obj"
+  "CMakeFiles/Proyecto.dir/Partida/ia.c.obj"
+  "CMakeFiles/Proyecto.dir/Partida/partida.c.obj"
+  "CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.obj"
+  "CMakeFiles/Proyecto.dir/TDALista/TDALista.c.obj"
   "Proyecto.exe"
   "Proyecto.exe.manifest"
   "Proyecto.pdb"

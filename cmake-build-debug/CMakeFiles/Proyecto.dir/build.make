@@ -56,62 +56,77 @@ include CMakeFiles/Proyecto.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Proyecto.dir/flags.make
 
-CMakeFiles/Proyecto.dir/arbol.c.obj: CMakeFiles/Proyecto.dir/flags.make
-CMakeFiles/Proyecto.dir/arbol.c.obj: ../arbol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Proyecto.dir/arbol.c.obj"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\arbol.c.obj   -c C:\Users\julia\Desktop\UNS\Orga\Proyecto\arbol.c
+CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.obj: CMakeFiles/Proyecto.dir/flags.make
+CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.obj: ../TDAArbol/arbol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.obj"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\TDAArbol\arbol.c.obj   -c C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDAArbol\arbol.c
 
-CMakeFiles/Proyecto.dir/arbol.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto.dir/arbol.c.i"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\julia\Desktop\UNS\Orga\Proyecto\arbol.c > CMakeFiles\Proyecto.dir\arbol.c.i
+CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.i"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDAArbol\arbol.c > CMakeFiles\Proyecto.dir\TDAArbol\arbol.c.i
 
-CMakeFiles/Proyecto.dir/arbol.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto.dir/arbol.c.s"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\julia\Desktop\UNS\Orga\Proyecto\arbol.c -o CMakeFiles\Proyecto.dir\arbol.c.s
+CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.s"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDAArbol\arbol.c -o CMakeFiles\Proyecto.dir\TDAArbol\arbol.c.s
 
-CMakeFiles/Proyecto.dir/mainArbol.c.obj: CMakeFiles/Proyecto.dir/flags.make
-CMakeFiles/Proyecto.dir/mainArbol.c.obj: ../mainArbol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Proyecto.dir/mainArbol.c.obj"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\mainArbol.c.obj   -c C:\Users\julia\Desktop\UNS\Orga\Proyecto\mainArbol.c
+CMakeFiles/Proyecto.dir/TDALista/TDALista.c.obj: CMakeFiles/Proyecto.dir/flags.make
+CMakeFiles/Proyecto.dir/TDALista/TDALista.c.obj: ../TDALista/TDALista.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Proyecto.dir/TDALista/TDALista.c.obj"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\TDALista\TDALista.c.obj   -c C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDALista\TDALista.c
 
-CMakeFiles/Proyecto.dir/mainArbol.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto.dir/mainArbol.c.i"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\julia\Desktop\UNS\Orga\Proyecto\mainArbol.c > CMakeFiles\Proyecto.dir\mainArbol.c.i
+CMakeFiles/Proyecto.dir/TDALista/TDALista.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto.dir/TDALista/TDALista.c.i"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDALista\TDALista.c > CMakeFiles\Proyecto.dir\TDALista\TDALista.c.i
 
-CMakeFiles/Proyecto.dir/mainArbol.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto.dir/mainArbol.c.s"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\julia\Desktop\UNS\Orga\Proyecto\mainArbol.c -o CMakeFiles\Proyecto.dir\mainArbol.c.s
+CMakeFiles/Proyecto.dir/TDALista/TDALista.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto.dir/TDALista/TDALista.c.s"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDALista\TDALista.c -o CMakeFiles\Proyecto.dir\TDALista\TDALista.c.s
 
-CMakeFiles/Proyecto.dir/TDALista.c.obj: CMakeFiles/Proyecto.dir/flags.make
-CMakeFiles/Proyecto.dir/TDALista.c.obj: ../TDALista.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Proyecto.dir/TDALista.c.obj"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\TDALista.c.obj   -c C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDALista.c
+CMakeFiles/Proyecto.dir/Partida/partida.c.obj: CMakeFiles/Proyecto.dir/flags.make
+CMakeFiles/Proyecto.dir/Partida/partida.c.obj: ../Partida/partida.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Proyecto.dir/Partida/partida.c.obj"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\Partida\partida.c.obj   -c C:\Users\julia\Desktop\UNS\Orga\Proyecto\Partida\partida.c
 
-CMakeFiles/Proyecto.dir/TDALista.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto.dir/TDALista.c.i"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDALista.c > CMakeFiles\Proyecto.dir\TDALista.c.i
+CMakeFiles/Proyecto.dir/Partida/partida.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto.dir/Partida/partida.c.i"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\julia\Desktop\UNS\Orga\Proyecto\Partida\partida.c > CMakeFiles\Proyecto.dir\Partida\partida.c.i
 
-CMakeFiles/Proyecto.dir/TDALista.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto.dir/TDALista.c.s"
-	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDALista.c -o CMakeFiles\Proyecto.dir\TDALista.c.s
+CMakeFiles/Proyecto.dir/Partida/partida.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto.dir/Partida/partida.c.s"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\julia\Desktop\UNS\Orga\Proyecto\Partida\partida.c -o CMakeFiles\Proyecto.dir\Partida\partida.c.s
+
+CMakeFiles/Proyecto.dir/Partida/ia.c.obj: CMakeFiles/Proyecto.dir/flags.make
+CMakeFiles/Proyecto.dir/Partida/ia.c.obj: ../Partida/ia.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Proyecto.dir/Partida/ia.c.obj"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto.dir\Partida\ia.c.obj   -c C:\Users\julia\Desktop\UNS\Orga\Proyecto\Partida\ia.c
+
+CMakeFiles/Proyecto.dir/Partida/ia.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto.dir/Partida/ia.c.i"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\julia\Desktop\UNS\Orga\Proyecto\Partida\ia.c > CMakeFiles\Proyecto.dir\Partida\ia.c.i
+
+CMakeFiles/Proyecto.dir/Partida/ia.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto.dir/Partida/ia.c.s"
+	D:\MINGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\julia\Desktop\UNS\Orga\Proyecto\Partida\ia.c -o CMakeFiles\Proyecto.dir\Partida\ia.c.s
 
 # Object files for target Proyecto
 Proyecto_OBJECTS = \
-"CMakeFiles/Proyecto.dir/arbol.c.obj" \
-"CMakeFiles/Proyecto.dir/mainArbol.c.obj" \
-"CMakeFiles/Proyecto.dir/TDALista.c.obj"
+"CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.obj" \
+"CMakeFiles/Proyecto.dir/TDALista/TDALista.c.obj" \
+"CMakeFiles/Proyecto.dir/Partida/partida.c.obj" \
+"CMakeFiles/Proyecto.dir/Partida/ia.c.obj"
 
 # External object files for target Proyecto
 Proyecto_EXTERNAL_OBJECTS =
 
-Proyecto.exe: CMakeFiles/Proyecto.dir/arbol.c.obj
-Proyecto.exe: CMakeFiles/Proyecto.dir/mainArbol.c.obj
-Proyecto.exe: CMakeFiles/Proyecto.dir/TDALista.c.obj
+Proyecto.exe: CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.obj
+Proyecto.exe: CMakeFiles/Proyecto.dir/TDALista/TDALista.c.obj
+Proyecto.exe: CMakeFiles/Proyecto.dir/Partida/partida.c.obj
+Proyecto.exe: CMakeFiles/Proyecto.dir/Partida/ia.c.obj
 Proyecto.exe: CMakeFiles/Proyecto.dir/build.make
 Proyecto.exe: CMakeFiles/Proyecto.dir/linklibs.rsp
 Proyecto.exe: CMakeFiles/Proyecto.dir/objects1.rsp
 Proyecto.exe: CMakeFiles/Proyecto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Proyecto.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\julia\Desktop\UNS\Orga\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Proyecto.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Proyecto.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -122,86 +122,113 @@ Proyecto/fast:
 	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/build
 .PHONY : Proyecto/fast
 
-TDALista.obj: TDALista.c.obj
+Partida/ia.obj: Partida/ia.c.obj
 
-.PHONY : TDALista.obj
-
-# target to build an object file
-TDALista.c.obj:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TDALista.c.obj
-.PHONY : TDALista.c.obj
-
-TDALista.i: TDALista.c.i
-
-.PHONY : TDALista.i
-
-# target to preprocess a source file
-TDALista.c.i:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TDALista.c.i
-.PHONY : TDALista.c.i
-
-TDALista.s: TDALista.c.s
-
-.PHONY : TDALista.s
-
-# target to generate assembly for a file
-TDALista.c.s:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TDALista.c.s
-.PHONY : TDALista.c.s
-
-arbol.obj: arbol.c.obj
-
-.PHONY : arbol.obj
+.PHONY : Partida/ia.obj
 
 # target to build an object file
-arbol.c.obj:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/arbol.c.obj
-.PHONY : arbol.c.obj
+Partida/ia.c.obj:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Partida/ia.c.obj
+.PHONY : Partida/ia.c.obj
 
-arbol.i: arbol.c.i
+Partida/ia.i: Partida/ia.c.i
 
-.PHONY : arbol.i
+.PHONY : Partida/ia.i
 
 # target to preprocess a source file
-arbol.c.i:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/arbol.c.i
-.PHONY : arbol.c.i
+Partida/ia.c.i:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Partida/ia.c.i
+.PHONY : Partida/ia.c.i
 
-arbol.s: arbol.c.s
+Partida/ia.s: Partida/ia.c.s
 
-.PHONY : arbol.s
+.PHONY : Partida/ia.s
 
 # target to generate assembly for a file
-arbol.c.s:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/arbol.c.s
-.PHONY : arbol.c.s
+Partida/ia.c.s:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Partida/ia.c.s
+.PHONY : Partida/ia.c.s
 
-mainArbol.obj: mainArbol.c.obj
+Partida/partida.obj: Partida/partida.c.obj
 
-.PHONY : mainArbol.obj
+.PHONY : Partida/partida.obj
 
 # target to build an object file
-mainArbol.c.obj:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/mainArbol.c.obj
-.PHONY : mainArbol.c.obj
+Partida/partida.c.obj:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Partida/partida.c.obj
+.PHONY : Partida/partida.c.obj
 
-mainArbol.i: mainArbol.c.i
+Partida/partida.i: Partida/partida.c.i
 
-.PHONY : mainArbol.i
+.PHONY : Partida/partida.i
 
 # target to preprocess a source file
-mainArbol.c.i:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/mainArbol.c.i
-.PHONY : mainArbol.c.i
+Partida/partida.c.i:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Partida/partida.c.i
+.PHONY : Partida/partida.c.i
 
-mainArbol.s: mainArbol.c.s
+Partida/partida.s: Partida/partida.c.s
 
-.PHONY : mainArbol.s
+.PHONY : Partida/partida.s
 
 # target to generate assembly for a file
-mainArbol.c.s:
-	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/mainArbol.c.s
-.PHONY : mainArbol.c.s
+Partida/partida.c.s:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Partida/partida.c.s
+.PHONY : Partida/partida.c.s
+
+TDAArbol/arbol.obj: TDAArbol/arbol.c.obj
+
+.PHONY : TDAArbol/arbol.obj
+
+# target to build an object file
+TDAArbol/arbol.c.obj:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.obj
+.PHONY : TDAArbol/arbol.c.obj
+
+TDAArbol/arbol.i: TDAArbol/arbol.c.i
+
+.PHONY : TDAArbol/arbol.i
+
+# target to preprocess a source file
+TDAArbol/arbol.c.i:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.i
+.PHONY : TDAArbol/arbol.c.i
+
+TDAArbol/arbol.s: TDAArbol/arbol.c.s
+
+.PHONY : TDAArbol/arbol.s
+
+# target to generate assembly for a file
+TDAArbol/arbol.c.s:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.s
+.PHONY : TDAArbol/arbol.c.s
+
+TDALista/TDALista.obj: TDALista/TDALista.c.obj
+
+.PHONY : TDALista/TDALista.obj
+
+# target to build an object file
+TDALista/TDALista.c.obj:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TDALista/TDALista.c.obj
+.PHONY : TDALista/TDALista.c.obj
+
+TDALista/TDALista.i: TDALista/TDALista.c.i
+
+.PHONY : TDALista/TDALista.i
+
+# target to preprocess a source file
+TDALista/TDALista.c.i:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TDALista/TDALista.c.i
+.PHONY : TDALista/TDALista.c.i
+
+TDALista/TDALista.s: TDALista/TDALista.c.s
+
+.PHONY : TDALista/TDALista.s
+
+# target to generate assembly for a file
+TDALista/TDALista.c.s:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/TDALista/TDALista.c.s
+.PHONY : TDALista/TDALista.c.s
 
 # Help Target
 help:
@@ -212,15 +239,18 @@ help:
 	@echo ... Proyecto
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... TDALista.obj
-	@echo ... TDALista.i
-	@echo ... TDALista.s
-	@echo ... arbol.obj
-	@echo ... arbol.i
-	@echo ... arbol.s
-	@echo ... mainArbol.obj
-	@echo ... mainArbol.i
-	@echo ... mainArbol.s
+	@echo ... Partida/ia.obj
+	@echo ... Partida/ia.i
+	@echo ... Partida/ia.s
+	@echo ... Partida/partida.obj
+	@echo ... Partida/partida.i
+	@echo ... Partida/partida.s
+	@echo ... TDAArbol/arbol.obj
+	@echo ... TDAArbol/arbol.i
+	@echo ... TDAArbol/arbol.s
+	@echo ... TDALista/TDALista.obj
+	@echo ... TDALista/TDALista.i
+	@echo ... TDALista/TDALista.s
 .PHONY : help
 
 

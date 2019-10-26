@@ -76,19 +76,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista.c">
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.c">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/arbol.c">
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/arbol.h">
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.c">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/lista.h">
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/mainArbol.c">
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDAArbol/arbol.c">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDAArbol/arbol.h">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista/TDALista.c">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista/lista.h">
 			<Option target="Proyecto"/>
 		</Unit>
 		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/CMakeLists.txt">
