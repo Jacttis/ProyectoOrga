@@ -4,6 +4,12 @@
 CMakeFiles/Proyecto.dir/TDALista.c.obj: ../TDALista.c
 CMakeFiles/Proyecto.dir/TDALista.c.obj: ../lista.h
 
-CMakeFiles/Proyecto.dir/testerList.c.obj: ../lista.h
-CMakeFiles/Proyecto.dir/testerList.c.obj: ../testerList.c
+CMakeFiles/Proyecto.dir/arbol.c.obj: ../ListaORGA/lista.h
+CMakeFiles/Proyecto.dir/arbol.c.obj: ../arbol.c
+CMakeFiles/Proyecto.dir/arbol.c.obj: ../arbol.h
+
+CMakeFiles/Proyecto.dir/mainArbol.c.obj: ../ListaORGA/lista.h
+CMakeFiles/Proyecto.dir/mainArbol.c.obj: ../arbol.h
+CMakeFiles/Proyecto.dir/mainArbol.c.obj: ../lista.h
+CMakeFiles/Proyecto.dir/mainArbol.c.obj: ../mainArbol.c
 

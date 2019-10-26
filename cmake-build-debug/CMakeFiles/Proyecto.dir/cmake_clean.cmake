@@ -1,9 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Proyecto.dir/testerList.c.obj"
   "CMakeFiles/Proyecto.dir/TDALista.c.obj"
-  "Proyecto.pdb"
+  "CMakeFiles/Proyecto.dir/arbol.c.obj"
+  "CMakeFiles/Proyecto.dir/mainArbol.c.obj"
   "Proyecto.exe"
   "Proyecto.exe.manifest"
+  "Proyecto.pdb"
   "libProyecto.dll.a"
 )
 

@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/TDALista.c.obj"
-  "C:/Users/julia/Desktop/UNS/Orga/Proyecto/testerList.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/testerList.c.obj"
+  "C:/Users/julia/Desktop/UNS/Orga/Proyecto/arbol.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/arbol.c.obj"
+  "C:/Users/julia/Desktop/UNS/Orga/Proyecto/mainArbol.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/mainArbol.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
