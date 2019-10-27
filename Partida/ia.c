@@ -93,7 +93,10 @@ Computa el valor de utilidad correspondiente al estado E, y la ficha correspondi
 - IA_PIERDE_MAX si el estado E refleja una jugada en el que el JUGADOR_MAX perdi� la partida.
 - IA_NO_TERMINO en caso contrario.
 **/
-static int valor_utilidad(tEstado e, int jugador_max){}
+static int valor_utilidad(tEstado e, int jugador_max){
+
+
+}
 
 /**
 >>>>>  A IMPLEMENTAR   <<<<<
@@ -105,7 +108,9 @@ estados_sucesores(estado, ficha) retornar�a dos listas L1 y L2 tal que:
 - L1 y L2 tienen exactamente los mismos estados sucesores de ESTADO a partir de jugar FICHA.
 - El orden de los estado en L1 posiblemente sea diferente al orden de los estados en L2.
 **/
-static tLista estados_sucesores(tEstado e, int ficha_jugador){}
+static tLista estados_sucesores(tEstado e, int ficha_jugador){
+
+}
 
 /**
 >>>>>  A IMPLEMENTAR   <<<<<
@@ -113,7 +118,16 @@ Inicializa y retorna un nuevo estado que resulta de la clonaci�n del estado E.
 Para esto copia en el estado a retornar los valores actuales de la grilla del estado E, como su valor
 de utilidad. 
 **/
-static tEstado clonar_estado(tEstado e){}
+static tEstado clonar_estado(tEstado e){
+    int i,j;
+    tEstado estadoN=(tEstado)malloc(sizeof(struct estado));
+    for(i=0;i<3;i++){
+        for(j=0;j<3;j++){
+            estadoN->grilla[i][j]=e->grilla[i][j];
+        }
+    }
+    estadoN->utilidad=e->utilidad;
+}
 
 /**
 Computa la diferencia existente entre dos estados.
