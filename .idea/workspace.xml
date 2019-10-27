@@ -12,53 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6672592f-6358-4773-9f23-357a07056186" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/3.14.5/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/3.14.5/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/ListaORGA.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/ListaORGA.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/ListaORGA.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ListaORGA/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDALista.c" beforeDir="false" afterPath="$PROJECT_DIR$/TDALista.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista.h" beforeDir="false" afterPath="$PROJECT_DIR$/lista.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Partida/partida.c" beforeDir="false" afterPath="$PROJECT_DIR$/Partida/partida.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +33,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Partida" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-2.2.2/resources/app/git/cmd/git.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,16 +41,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\julia\Desktop\UNS\Orga\Proyecto\Partida" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDAArbol" />
       <recent name="C:\Users\julia\Desktop\UNS\Orga\Proyecto\TDALista" />
       <recent name="C:\Users\julia\Desktop\UNS\Orga\Proyecto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\Desktop\UNS\Orga\Proyecto\Partida" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -158,6 +113,7 @@
       <workItem from="1572044586633" duration="1197000" />
       <workItem from="1572114556804" duration="104000" />
       <workItem from="1572114684944" duration="617000" />
+      <workItem from="1572149450603" duration="1986000" />
     </task>
     <servers />
   </component>
