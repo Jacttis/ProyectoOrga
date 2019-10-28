@@ -6,17 +6,27 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.c
-partida.h
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.h
-stdlib.h
--
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/TestPartida.c
 stdio.h
 -
-string.h
+stdlib.h
 -
-windows.h
--
+ia.h
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.h
+partida.h
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.h
+
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.h
+../TDAArbol/arbol.h
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDAArbol/arbol.h
+partida.h
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.h
 
 C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.h
+
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDAArbol/arbol.h
+../TDALista/lista.h
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista/lista.h
+
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista/lista.h
 
