@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/TestPartida.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/Partida/TestPartida.c.obj"
   "C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/Partida/ia.c.obj"
   "C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/Partida/partida.c.obj"
   "C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDAArbol/arbol.c" "C:/Users/julia/Desktop/UNS/Orga/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.obj"
