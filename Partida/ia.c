@@ -181,6 +181,5 @@ int main(){ //prueba color en consola windows
     SetConsoleTextAttribute(Con, 5);
     printf("Hello");
     system("cls");
-    system("Puto");
     return 0;
 }
