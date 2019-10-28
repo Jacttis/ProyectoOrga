@@ -120,7 +120,31 @@ estados_sucesores(estado, ficha) retornar�a dos listas L1 y L2 tal que:
 - El orden de los estado en L1 posiblemente sea diferente al orden de los estados en L2.
 **/
 static tLista estados_sucesores(tEstado e, int ficha_jugador){
-
+    int i,j;
+    tEstado estadoClonado;
+    tLista listaRet;
+    crear_lista(&listaRet);//Asumo que no se pasara un estado terminal
+    for(i=0;i<3;i++){
+        for(j=0;j<3;j++){
+            if(e->grilla[i][j]==PART_SIN_MOVIMIENTO){
+                estadoClonado=clonar_estado(e);
+                estadoClonado->grilla[i][j]=ficha_jugador;
+                srand(GetCurrentTime());
+                int random=rand()%3;
+                if(random==0){
+                    l_insertar(listaRet,l_primera(listaRet),estadoClonado);
+                }
+                else
+                    if(random==1){
+                       l_insertar(listaRet,l_ultima(listaRet),estadoClonado);
+                    }
+                    else{
+                        l_insertar(listaRet,l_fin(listaRet),estadoClonado);
+                    }
+            }
+        }
+    }
+    return listaRet;
 }
 
 /**
