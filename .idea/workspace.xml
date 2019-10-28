@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6672592f-6358-4773-9f23-357a07056186" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Partida/ia.c" beforeDir="false" afterPath="$PROJECT_DIR$/Partida/ia.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +32,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-2.2.2/resources/app/git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -116,6 +115,7 @@
       <workItem from="1572149450603" duration="3975000" />
       <workItem from="1572210692790" duration="4990000" />
       <workItem from="1572232457161" duration="894000" />
+      <workItem from="1572286755360" duration="746000" />
     </task>
     <servers />
   </component>
