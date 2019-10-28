@@ -51,7 +51,7 @@ extern int nuevo_movimiento(tPartida p, int mov_x, int mov_y){
     }
     if (p->tablero->grilla[mov_x][mov_y] == PART_SIN_MOVIMIENTO) {
         p->tablero->grilla[mov_x][mov_y] = p->turno_de;
-        printTablero(p->tablero->grilla[3][3],3);
+        printTablero(p->tablero->grilla,3);
         p->turno_de = p->turno_de == PART_JUGADOR_1? PART_JUGADOR_2: PART_JUGADOR_1;
 
     }

@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 #include "../TDALista/lista.h"
 #include "../TDAArbol/arbol.h"
 #include "ia.h"
@@ -11,7 +11,7 @@ static int valor_utilidad(tEstado e, int jugador_max);
 static tLista estados_sucesores(tEstado e, int ficha_jugador);
 static void diferencia_estados(tEstado anterior, tEstado nuevo, int * x, int * y);
 static tEstado clonar_estado(tEstado e);
-
+int gana(tEstado estado,int jugador);
 void crear_busqueda_adversaria(tBusquedaAdversaria * b, tPartida p){
     int i, j;
     tEstado estado;
@@ -94,7 +94,18 @@ Computa el valor de utilidad correspondiente al estado E, y la ficha correspondi
 - IA_NO_TERMINO en caso contrario.
 **/
 static int valor_utilidad(tEstado e, int jugador_max){
-
+    int jugador_min=jugador_max==PART_JUGADOR_1?PART_GANA_JUGADOR_2:PART_JUGADOR_1;
+    if(gana(e,jugador_max)){
+        return IA_GANA_MAX;
+    }
+    else{
+        if(gana(e,jugador_min)){
+            return IA_PIERDE_MAX;
+        }
+        else{
+            return IA_NO_TERMINO;
+        }
+    }
 
 }
 
@@ -145,4 +156,23 @@ static void diferencia_estados(tEstado anterior, tEstado nuevo, int * x, int * y
             }
         }
     }
+}
+
+int gana(tEstado estado,int jugador) {
+    int gana = 0;
+    if ((estado->grilla[0][0] == jugador && estado->grilla[1][1] == jugador && estado->grilla[2][2] == jugador) ||
+        (estado->grilla[2][0] == jugador && estado->grilla[1][1] == jugador && estado->grilla[0][2] == jugador)) {
+        gana = 1;
+    }
+    else {
+        for(int i=0;i<2;i++){
+            if((estado->grilla[i][i]==jugador && estado->grilla[i][i+1]==jugador && estado->grilla[i][i+2]==jugador) ||
+               (estado->grilla[i][i]==jugador && estado->grilla[i+1][i]==jugador && estado->grilla[i+2][i]==jugador) ){
+                    gana=1;
+                    break;
+            }
+        }
+    }
+
+    return gana;
 }

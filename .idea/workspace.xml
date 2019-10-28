@@ -13,7 +13,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6672592f-6358-4773-9f23-357a07056186" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Partida/ia.c" beforeDir="false" afterPath="$PROJECT_DIR$/Partida/ia.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Partida/partida.c" beforeDir="false" afterPath="$PROJECT_DIR$/Partida/partida.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto.dir/depend.make" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +117,8 @@
       <workItem from="1572044586633" duration="1197000" />
       <workItem from="1572114556804" duration="104000" />
       <workItem from="1572114684944" duration="617000" />
-      <workItem from="1572149450603" duration="1986000" />
+      <workItem from="1572149450603" duration="3975000" />
+      <workItem from="1572210692790" duration="4990000" />
     </task>
     <servers />
   </component>
