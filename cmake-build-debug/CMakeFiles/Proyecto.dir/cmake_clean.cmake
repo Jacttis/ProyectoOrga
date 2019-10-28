@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Proyecto.dir/Partida/TestPartida.c.obj"
   "CMakeFiles/Proyecto.dir/Partida/ia.c.obj"
   "CMakeFiles/Proyecto.dir/Partida/partida.c.obj"
   "CMakeFiles/Proyecto.dir/TDAArbol/arbol.c.obj"

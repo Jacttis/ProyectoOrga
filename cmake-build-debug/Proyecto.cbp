@@ -76,6 +76,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/TestPartida.c">
+			<Option target="Proyecto"/>
+		</Unit>
 		<Unit filename="C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.c">
 			<Option target="Proyecto"/>
 		</Unit>

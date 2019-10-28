@@ -6,29 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.c
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.c
+partida.h
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.h
 stdlib.h
 -
 stdio.h
 -
-../TDALista/lista.h
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista/lista.h
-../TDAArbol/arbol.h
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDAArbol/arbol.h
-ia.h
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.h
-
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.h
-../TDAArbol/arbol.h
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDAArbol/arbol.h
-partida.h
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.h
+string.h
+-
+windows.h
+-
 
 C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.h
-
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDAArbol/arbol.h
-../TDALista/lista.h
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista/lista.h
-
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista/lista.h
 

@@ -122,6 +122,33 @@ Proyecto/fast:
 	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/build
 .PHONY : Proyecto/fast
 
+Partida/TestPartida.obj: Partida/TestPartida.c.obj
+
+.PHONY : Partida/TestPartida.obj
+
+# target to build an object file
+Partida/TestPartida.c.obj:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Partida/TestPartida.c.obj
+.PHONY : Partida/TestPartida.c.obj
+
+Partida/TestPartida.i: Partida/TestPartida.c.i
+
+.PHONY : Partida/TestPartida.i
+
+# target to preprocess a source file
+Partida/TestPartida.c.i:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Partida/TestPartida.c.i
+.PHONY : Partida/TestPartida.c.i
+
+Partida/TestPartida.s: Partida/TestPartida.c.s
+
+.PHONY : Partida/TestPartida.s
+
+# target to generate assembly for a file
+Partida/TestPartida.c.s:
+	$(MAKE) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Partida/TestPartida.c.s
+.PHONY : Partida/TestPartida.c.s
+
 Partida/ia.obj: Partida/ia.c.obj
 
 .PHONY : Partida/ia.obj
@@ -239,6 +266,9 @@ help:
 	@echo ... Proyecto
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Partida/TestPartida.obj
+	@echo ... Partida/TestPartida.i
+	@echo ... Partida/TestPartida.s
 	@echo ... Partida/ia.obj
 	@echo ... Partida/ia.i
 	@echo ... Partida/ia.s
