@@ -39,3 +39,5 @@ Luego de que hicimos un git commit, si estamos trabajando remotamente, este coma
 
 git pull origin NombreDeBranch
 Hace una actualización en nuestro branch local, desde un branch remoto que indicamos en el comando.
+
+rojo no esta añadido, verde esta añadido pero no comiteado,azul cuando es nuevo??
