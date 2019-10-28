@@ -3,7 +3,7 @@
 #include "../TDALista/lista.h"
 #include "../TDAArbol/arbol.h"
 #include "ia.h"
-
+#include <windows.h>
 // Prototipos de funciones auxiliares.
 static void ejecutar_min_max(tBusquedaAdversaria b);
 static void crear_sucesores_min_max(tArbol a, tNodo n, int es_max, int alpha, int beta, int jugador_max, int jugador_min);
@@ -175,4 +175,11 @@ int gana(tEstado estado,int jugador) {
     }
 
     return gana;
+}
+int main(){ //prueba color en consola windows
+     HANDLE Con = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(Con, 5);
+    printf("Hello");
+    system("cls");
+    return 0;
 }
