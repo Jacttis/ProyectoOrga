@@ -12,6 +12,7 @@ static tLista estados_sucesores(tEstado e, int ficha_jugador);
 static void diferencia_estados(tEstado anterior, tEstado nuevo, int * x, int * y);
 static tEstado clonar_estado(tEstado e);
 int ganaIA(tEstado estado,int jugador);
+int lleno(tEstado estado);
 void crear_busqueda_adversaria(tBusquedaAdversaria * b, tPartida p){
     int i, j;
     tEstado estado;
@@ -50,12 +51,62 @@ void crear_busqueda_adversaria(tBusquedaAdversaria * b, tPartida p){
 /** 
 >>>>>  A IMPLEMENTAR   <<<<<
 */
-void proximo_movimiento(tBusquedaAdversaria b, int * x, int * y){}
+void proximo_movimiento(tBusquedaAdversaria b, int * x, int * y){
+    tNodo raiz=a_raiz(b->arbol_busqueda);
+    tLista sucesores=a_hijos(b->arbol_busqueda,raiz);
+    tPosicion posicionActual=l_primera(sucesores);
+    tNodo nodoSucesores=l_recuperar(sucesores,posicionActual);
+    tEstado estadoSucesor=a_recuperar(b->arbol_busqueda,nodoSucesores);
+    tEstado  estadoGana=NULL;
+    tEstado estadoEmpata=NULL;
+    tEstado estadoPierde=NULL;
+    tEstado estadoInicial=NULL;
+    tEstado aRetornar=NULL;
 
+    do{
+        if(estadoSucesor->utilidad==IA_GANA_MAX){
+            estadoGana=estadoSucesor;
+        }
+        else{
+            if(estadoSucesor->utilidad==IA_EMPATA_MAX){
+                estadoEmpata=estadoSucesor;
+            }
+            else{
+                estadoPierde=estadoSucesor;
+            }
+        }
+        posicionActual=posicionActual!=l_ultima(sucesores)?l_siguiente(sucesores,posicionActual):NULL;
+        nodoSucesores=l_recuperar(sucesores,posicionActual);
+        estadoSucesor=a_recuperar(b->arbol_busqueda,nodoSucesores);
+    }
+    while(posicionActual!=NULL && estadoGana!=NULL);
+
+    if(estadoGana!=NULL){
+        aRetornar=estadoGana;
+    }
+    else{
+        if(estadoEmpata!=NULL){
+            aRetornar=estadoEmpata;
+        }
+        else{
+            aRetornar=estadoPierde;
+        }
+    }
+    estadoInicial=a_recuperar(b->arbol_busqueda,a_raiz(b->arbol_busqueda));
+    diferencia_estados(estadoInicial,aRetornar,x,y);
+}
+
+void EliminarEstado(tEstado *e){
+    free((*e)->grilla);
+    free(*e);
+}
 /**
 >>>>>  A IMPLEMENTAR   <<<<<
 **/
-void destruir_busqueda_adversaria(tBusquedaAdversaria * b){}
+void destruir_busqueda_adversaria(tBusquedaAdversaria * b){
+    a_destruir(&(*b)->arbol_busqueda, (void (*)(tElemento)) &EliminarEstado);
+    free(*b);
+}
 
 // ===============================================================================================================
 // FUNCIONES Y PROCEDEMIENTOS AUXILIARES
@@ -83,7 +134,10 @@ Implementa la estrategia del algoritmo Min-Max con podas Alpha-Beta, a partir de
 - ALPHA y BETA indican sendos valores correspondientes a los nodos ancestros a N en el �rbol de b�squeda A.
 - JUGADOR_MAX y JUGADOR_MIN indican las fichas con las que juegan los respectivos jugadores.
 **/
-static void crear_sucesores_min_max(tArbol a, tNodo n, int es_max, int alpha, int beta, int jugador_max, int jugador_min){}
+static void crear_sucesores_min_max(tArbol a, tNodo n, int es_max, int alpha, int beta, int jugador_max, int jugador_min){
+
+
+}
 
 /**
 >>>>>  A IMPLEMENTAR   <<<<<
@@ -103,7 +157,12 @@ static int valor_utilidad(tEstado e, int jugador_max){
             return IA_PIERDE_MAX;
         }
         else{
-            return IA_NO_TERMINO;
+            if(lleno(e)){
+                return IA_EMPATA_MAX;
+            }
+            else{
+                return IA_NO_TERMINO;
+            }
         }
     }
 
@@ -200,10 +259,15 @@ int ganaIA(tEstado estado,int jugador) {
 
     return gana;
 }
-/*int main(){ //prueba color en consola windows
-     HANDLE Con = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(Con, 5);
-    printf("Hello");
-    system("cls");
-    return 0;
-}*/
+
+int lleno(tEstado estado){
+    int lleno=1;
+    for(int i=0;i<3 && lleno;i++){
+        for(int j=0;j<3 && lleno;j++){
+            if(estado->grilla[i][j]==PART_SIN_MOVIMIENTO){
+                lleno=0;
+            }
+        }
+    }
+    return lleno;
+}
