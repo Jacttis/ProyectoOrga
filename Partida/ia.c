@@ -13,6 +13,8 @@ static void diferencia_estados(tEstado anterior, tEstado nuevo, int * x, int * y
 static tEstado clonar_estado(tEstado e);
 int ganaIA(tEstado estado,int jugador);
 int lleno(tEstado estado);
+int MIN(int v1,int v2);
+int MAX(int v1,int v2);
 void crear_busqueda_adversaria(tBusquedaAdversaria * b, tPartida p){
     int i, j;
     tEstado estado;
@@ -135,8 +137,60 @@ Implementa la estrategia del algoritmo Min-Max con podas Alpha-Beta, a partir de
 - JUGADOR_MAX y JUGADOR_MIN indican las fichas con las que juegan los respectivos jugadores.
 **/
 static void crear_sucesores_min_max(tArbol a, tNodo n, int es_max, int alpha, int beta, int jugador_max, int jugador_min){
+    tEstado estado = a_recuperar(a,n);
+    tEstado hijoEstado;
+    tPosicion posActual;
+    tLista sucesores;
+    int utilidad=valor_utilidad(estado,jugador_max);
+    int mayor_valor_sucesor;
 
+    if(es_max){
 
+        mayor_valor_sucesor=IA_INFINITO_NEG;//se hace para calcular alpha
+        sucesores=estados_sucesores(estado,jugador_max);
+        posActual=l_primera(sucesores);
+
+        while(posActual!=NULL){
+            //Incializo el estado hijo
+            hijoEstado = l_recuperar(sucesores,posActual);
+            hijoEstado->utilidad = valor_utilidad(hijoEstado,jugador_max);
+            //Inserto el estado hijo
+            a_insertar(a,n,NULL,hijoEstado);
+            //llamo recursivamente con el nuevo hijo, y cambio al estado a min con 0
+            crear_sucesores_min_max(a,l_recuperar(a_hijos(a,n),l_ultima(a_hijos(a,n))),0,alpha,beta,jugador_max,jugador_min);
+            //se calcula el valor de alpha
+            alpha = MAX(alpha,mayor_valor_sucesor);
+            if(beta <= alpha){
+                break;
+            }
+            posActual = posActual == l_ultima(sucesores) ? NULL : l_siguiente(sucesores,posActual);
+        }
+        estado->utilidad = alpha;
+    }
+    else{
+
+        mayor_valor_sucesor=IA_INFINITO_POS;//se hace para calcular beta
+        sucesores=estados_sucesores(estado,jugador_min);
+        posActual=l_primera(sucesores);
+
+        while(posActual!=NULL){
+            //inicializo el estado hijo
+            hijoEstado = l_recuperar(sucesores,posActual);
+            hijoEstado->utilidad = valor_utilidad(hijoEstado,jugador_min);
+            //inserto el estado hijo
+            a_insertar(a,n,NULL,hijoEstado);
+            //llamo recursivameente con el nuevo hijo y cambio al estado max con 1
+            crear_sucesores_min_max(a,l_recuperar(a_hijos(a,n),l_ultima(a_hijos(a,n))),1,alpha,beta,jugador_max,jugador_min);
+            //se calcula el valor para beta
+            beta = MIN(beta,mayor_valor_sucesor);
+            if(beta <= alpha){
+                break;
+            }
+            posActual = posActual == l_ultima(sucesores) ? NULL : l_siguiente(sucesores,posActual);
+        }
+        estado->utilidad = beta;
+
+    }
 }
 
 /**
@@ -259,7 +313,6 @@ int ganaIA(tEstado estado,int jugador) {
 
     return gana;
 }
-
 int lleno(tEstado estado){
     int lleno=1;
     for(int i=0;i<3 && lleno;i++){
@@ -270,4 +323,24 @@ int lleno(tEstado estado){
         }
     }
     return lleno;
+}
+int MAX(int v1,int v2){
+    int ret;
+    if(v1>=v2){
+        ret=v1;
+    }
+    else{
+        ret=v2;
+    }
+    return ret;
+}
+int MIN(int v1,int v2){
+    int ret;
+    if(v1>=v2){
+        ret=v2;
+    }
+    else{
+        ret=v1;
+    }
+    return ret;
 }
