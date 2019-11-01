@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <windows.h>
+#include<time.h>
 int gana(tPartida partida,int jugador);
 /**
 Inicializa una nueva partida, indicando:
@@ -15,7 +15,6 @@ Inicializa una nueva partida, indicando:
  - Nombre que representa al Jugador 2.
 **/
 extern void nueva_partida(tPartida * p, int modo_partida, int comienza, char * j1_nombre, char * j2_nombre){
-    HANDLE Con = GetStdHandle(STD_OUTPUT_HANDLE);
     (*p)=(tPartida)malloc(sizeof(struct partida));
     (*p)->tablero=(tTablero)malloc(sizeof(struct tablero));
     for(int i=0;i<3;i++){
@@ -25,16 +24,14 @@ extern void nueva_partida(tPartida * p, int modo_partida, int comienza, char * j
     }
     (*p)->modo_partida=modo_partida;
     if(comienza==PART_JUGADOR_RANDOM){
-        srand(GetCurrentTime());
+        srand(time(NULL));
         int random=rand()%2;
         if(random==0){
             (*p)->turno_de=PART_JUGADOR_1;
-            SetConsoleTextAttribute(Con, 5);
             printf("Empieza Jugador 1");
         }
         else{
             (*p)->turno_de=PART_JUGADOR_2;
-            SetConsoleTextAttribute(Con, 2);
             printf("Empieza Jugador 2");
         }
 
@@ -42,6 +39,7 @@ extern void nueva_partida(tPartida * p, int modo_partida, int comienza, char * j
     else{
         (*p)->turno_de=comienza;
     }
+    (*p)->estado=PART_EN_JUEGO;
     strcpy((*p)->nombre_jugador_1,j1_nombre);
     strcpy((*p)->nombre_jugador_2,j2_nombre);
 }

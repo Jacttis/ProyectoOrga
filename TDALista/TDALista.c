@@ -78,7 +78,7 @@ Recupera y retorna el elemento en la posici�n P.
 Si P es fin(L), finaliza indicando LST_POSICION_INVALIDA.
 **/
 extern tElemento l_recuperar(tLista l, tPosicion p){
-   if(p==NULL){
+   if(p==NULL || p->siguiente==NULL){
        exit(LST_POSICION_INVALIDA);
    }
     return p->siguiente->elemento; //devuelvo el elemento de la siguiente posicion
