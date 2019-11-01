@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/TestPartida.c
-stdio.h
--
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.c
 stdlib.h
 -
+stdio.h
+-
+../TDALista/lista.h
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDALista/lista.h
+../TDAArbol/arbol.h
+C:/Users/julia/Desktop/UNS/Orga/Proyecto/TDAArbol/arbol.h
 ia.h
 C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.h
-partida.h
-C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/partida.h
+time.h
+-
 
 C:/Users/julia/Desktop/UNS/Orga/Proyecto/Partida/ia.h
 ../TDAArbol/arbol.h
