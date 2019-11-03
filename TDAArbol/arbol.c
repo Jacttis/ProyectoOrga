@@ -14,6 +14,9 @@ Una referencia al �rbol creado es referenciado en *A.
 **/
 extern void crear_arbol(tArbol * a){
     *a=(tArbol)malloc(sizeof(struct arbol));
+    if(*a==NULL){
+        exit(ARB_ERROR_MEMORIA);
+    }
     (*a)->raiz=NULL;
 }
 
@@ -29,6 +32,9 @@ extern void crear_raiz(tArbol a, tElemento e){
     tNodo  nodoN;
     tLista lista;
     nodoN=(tNodo)malloc(sizeof(struct nodo));
+    if(nodoN==NULL){
+        exit(ARB_ERROR_MEMORIA);
+    }
     crear_lista(&lista);
     nodoN->elemento=e;
     nodoN->hijos=lista;
@@ -49,6 +55,9 @@ extern tNodo a_insertar(tArbol a, tNodo np, tNodo nh, tElemento e){
     tLista listaH;
     crear_lista(&listaH);
     nodoN=(tNodo)malloc((sizeof(struct nodo)));
+    if(nodoN==NULL){
+        exit(ARB_ERROR_MEMORIA);
+    }
     nodoN->elemento = e;
     nodoN->padre = np;
     nodoN->hijos = listaH;

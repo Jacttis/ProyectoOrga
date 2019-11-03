@@ -54,30 +54,29 @@ void crear_busqueda_adversaria(tBusquedaAdversaria * b, tPartida p){
 */
 void proximo_movimiento(tBusquedaAdversaria b, int * x, int * y) {
     tArbol arbol = b->arbol_busqueda;
-    tEstado mejor, r;
-    tPosicion actual, fin;
-    int val, actualUtilidad;
-    actual = l_primera(arbol->raiz->hijos);
+    tNodo raiz=arbol->raiz;
+    tEstado mejorEstado, Inicial;
+    tPosicion PosActual, PosFinal;
+    int ValorAComparar, actualUtilidad;
 
-    fin = l_fin(arbol->raiz->hijos);
-    r = a_recuperar(arbol, arbol->raiz);
-    mejor = NULL;
-    val = -9;
-
-    while (actual != fin && val != 1003) {
-        actualUtilidad = ((tEstado)a_recuperar(arbol, l_recuperar(arbol->raiz->hijos, actual)))->utilidad;
-        if (actualUtilidad > val && actualUtilidad != IA_NO_TERMINO) {
-            mejor = ((tEstado)a_recuperar(arbol, l_recuperar(arbol->raiz->hijos, actual)));
-            val = actualUtilidad;
+    PosActual = l_primera(arbol->raiz->hijos);
+    PosFinal = l_fin(arbol->raiz->hijos);
+    Inicial = a_recuperar(arbol, arbol->raiz);
+    mejorEstado = NULL;
+    ValorAComparar = 0;
+    while (PosActual != PosFinal && ValorAComparar != IA_GANA_MAX) {
+        tEstado estadoSucesor=a_recuperar(arbol, l_recuperar(raiz->hijos, PosActual));
+        actualUtilidad = estadoSucesor->utilidad;
+        if (actualUtilidad > ValorAComparar && actualUtilidad != IA_NO_TERMINO) {
+            mejorEstado = ((tEstado)a_recuperar(arbol, l_recuperar(raiz->hijos, PosActual)));
+            ValorAComparar = actualUtilidad;
         }
-
-        actual = l_siguiente(arbol->raiz->hijos, actual);
+        PosActual = l_siguiente(raiz->hijos, PosActual);
     }
+    if (mejorEstado == NULL)
+        mejorEstado = ((tEstado)a_recuperar(arbol, l_recuperar(raiz->hijos, l_ultima(raiz->hijos))));
 
-    if (mejor == NULL)
-        mejor = ((tEstado)a_recuperar(arbol, l_recuperar(arbol->raiz->hijos, l_ultima(arbol->raiz->hijos))));
-
-    diferencia_estados(r, mejor, x, y);
+    diferencia_estados(Inicial, mejorEstado, x, y);
 }
 
 void EliminarEstado(tEstado *e){
@@ -122,7 +121,6 @@ static void crear_sucesores_min_max(tArbol a, tNodo n, int es_max, int alpha, in
     tPosicion posActual;
     tLista sucesores;
     int utilidad=valor_utilidad(estado,jugador_max);
-    printf("%d\n",utilidad);
     int mayor_valor_sucesor;
 
     if(utilidad!=IA_NO_TERMINO){
@@ -148,7 +146,6 @@ static void crear_sucesores_min_max(tArbol a, tNodo n, int es_max, int alpha, in
                 mayor_valor_sucesor=MAX(mayor_valor_sucesor,hijoEstado->utilidad);
                 alpha = MAX(alpha, mayor_valor_sucesor);
                 estado->utilidad = alpha;
-                printf("Max: %d\n",estado->utilidad);
                 if (beta <= alpha) {
                     break;
                 }
@@ -174,7 +171,6 @@ static void crear_sucesores_min_max(tArbol a, tNodo n, int es_max, int alpha, in
                 mayor_valor_sucesor=MIN(mayor_valor_sucesor,hijoEstado->utilidad);
                 beta = MIN(beta, mayor_valor_sucesor);
                 estado->utilidad = beta;
-                printf("Min: %d\n",estado->utilidad);
                 if (beta <= alpha) {
                     break;
                 }
@@ -268,6 +264,9 @@ de utilidad.
 static tEstado clonar_estado(tEstado e){
     int i,j;
     tEstado estadoN=(tEstado)malloc(sizeof(struct estado));
+    if(estadoN==NULL){
+        exit(PART_ERROR_MEMORIA);
+    }
     for(i=0;i<3;i++){
         for(j=0;j<3;j++){
             estadoN->grilla[i][j]=e->grilla[i][j];

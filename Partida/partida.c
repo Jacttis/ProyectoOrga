@@ -17,6 +17,9 @@ Inicializa una nueva partida, indicando:
 extern void nueva_partida(tPartida * p, int modo_partida, int comienza, char * j1_nombre, char * j2_nombre){
     (*p)=(tPartida)malloc(sizeof(struct partida));
     (*p)->tablero=(tTablero)malloc(sizeof(struct tablero));
+    if(*p==NULL){
+        exit(PART_ERROR_MEMORIA);
+    }
     for(int i=0;i<3;i++){
         for(int j=0;j<3;j++){
             (*p)->tablero->grilla[i][j]=PART_SIN_MOVIMIENTO;
