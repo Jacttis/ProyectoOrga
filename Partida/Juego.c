@@ -5,17 +5,17 @@
 #include <time.h>
 #include "ia.h"
 
-void usuario_vs_usuario(tPartida partida, int comienza);
+void usuario_vs_usuario(tPartida partida);
 void checkearMovimiento(int *x, int *y, tPartida partida);
 int GanaJugador(int grilla[][3], int jugador_max);
 int VerLleno(int grilla[][3]);
 void print(int grilla[3][3]);
-void usuario_vs_maquina(tPartida partida, int comienza);
+void usuario_vs_maquina(tPartida partida);
 
 
 int main() {
     tPartida partida;
-    int modo, Terminar, orden, comienza;
+    int modo, Terminar, orden, comienza = 0;
     char j1[50], j2[50];
     Terminar = 0;
 
@@ -64,13 +64,13 @@ int main() {
             strcpy(partida->nombre_jugador_1, j1);
             strcpy(partida->nombre_jugador_2, j2);
 
-            usuario_vs_usuario(partida, comienza);
+            usuario_vs_usuario(partida);
         }
         else if (modo == 2) {
             nueva_partida(&partida, PART_MODO_USUARIO_VS_AGENTE_IA, comienza, "", "Maquina");
             strcpy(partida->nombre_jugador_1, j1);
 
-            usuario_vs_maquina(partida, comienza);
+            usuario_vs_maquina(partida);
         }
         printf("\nSalir del juego? \n1 -> Si\n2 -> No\nSalir: ");
         scanf("%d", &Terminar);
@@ -161,7 +161,7 @@ void print(int grilla[3][3]) {
     }
 }
 
-void usuario_vs_usuario(tPartida partida, int comienza) {
+void usuario_vs_usuario(tPartida partida) {
     int x,y;
 
     print(partida->tablero->grilla);
@@ -193,7 +193,7 @@ void usuario_vs_usuario(tPartida partida, int comienza) {
     }
 }
 
-void usuario_vs_maquina(tPartida partida, int comienza) {
+void usuario_vs_maquina(tPartida partida) {
     int x,y;
 
     print(partida->tablero->grilla);
